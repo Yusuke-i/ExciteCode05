@@ -2,3 +2,46 @@
 @use "./base/reset";
 @use "./global" as *;
 
+// Header
+.header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:30px 80px 0;
+    display: flex;
+    justify-content: space-between;
+    @include mq("md"){
+    padding:18px 10px 0;
+    }
+}
+
+.header__logo {
+    width: 149px;
+    aspect-ratio: 149/26;
+    @include mq("md"){
+        width: 103px;
+    }
+}
+
+
+.header__list {
+    display: flex;
+}
+
+.header__item:not(:first-child) {
+    margin-left: 60px;
+    @include mq("md"){
+        margin-left: 20px;
+    }
+}
+
+.header__link {
+    font-size: 16px;
+    font-weight: $medium;
+    color: $white;
+    @include mq("md"){
+        font-size: 14px;
+    }
+}
+

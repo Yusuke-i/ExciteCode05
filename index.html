@@ -8,21 +8,26 @@
   <meta name="format-detection" content="telephone=no">
 
   <!-- OGPなど -->
-  <title>ExciteCodeX | タイトル</title>
-  <meta name="description" content="ディスクリプション">
-  <meta property="og:title" content="ExciteCode | ">
+  <title>ExciteCode5 | 美味しいハンバーガーとシェイクで東北のみんなを笑顔にします</title>
+  <meta name="description" content="ExciteCodeは、フードトラックで東北各地を周ってハンバーガーを提供しています。食材はすべて、東北地方各地の酪農家さんや農家さんからの直送で東北ならではの美味しさをお楽しみいただけます。">
+  <meta property="og:title" content="ExciteCode5 | 美味しいハンバーガーとシェイクで東北のみんなを笑顔にします">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://hogehoge.com/">
   <meta property="og:image" content="http://hogehoge.com/images/ogp-img.jpg">
-  <meta property="og:site_name" content="ExciteCodeX">
-  <meta property="og:description" content="ディスクリプション">
+  <meta property="og:site_name" content="ExciteCode5">
+  <meta property="og:description" content="ExciteCodeは、フードトラックで東北各地を周ってハンバーガーを提供しています。食材はすべて、東北地方各地の酪農家さんや農家さんからの直送で東北ならではの美味しさをお楽しみいただけます。">
   <meta name="twitter:card" content="summary">
 
   <!-- ファビコン -->
   <link rel="icon" href="./images/favicon.ico">
   <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180">
 
-<!-- ファーストビューの背景画像は先行して読み込む(2.3) -->
+  <!-- Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"> 
+  
+   <!-- ファーストビューの背景画像は先行して読み込む(2.3) -->
   <link rel="preload" as="image" href="./images/xxx.jpg">
   <link rel="preload" as="image" href="./images/xxx-sp.jpg">
 
@@ -31,7 +36,21 @@
 </head>
 
 <body>
-
+  <header class="header">
+    <h1 class="header__title">
+      <img src="./images/logo.svg" alt="ExciteCode" class="header__logo" loading="lazy">
+    </h1>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#location" class="header__link">Location</a>
+        </li>
+        <li class="header__item">
+          <a href="#about" class="header__link">About Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <main>
 
   </main>
