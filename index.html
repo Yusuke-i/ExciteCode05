@@ -28,8 +28,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"> 
   
    <!-- ファーストビューの背景画像は先行して読み込む(2.3) -->
-  <link rel="preload" as="image" href="./images/xxx.jpg">
-  <link rel="preload" as="image" href="./images/xxx-sp.jpg">
+  <link rel="preload" as="image" href="./images/fv-img.jpg">
+  <link rel="preload" as="image" href="./images/fv-img-sp.jpg">
 
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
@@ -52,6 +52,63 @@
     </nav>
   </header>
   <main>
+    <!-- FV -->
+     <div class="fv">
+        <h1 class="fv__title">Welcome!</h1>
+        <ul class="fv__list">
+          <li class="fv__item">
+            <img src="./images/hamberger-img.jpg" alt="トマトやレタスなどの野菜が挟まっているハンバーガー" class="fv__menu-img" loading="lazy">
+            <p class="fv__menu-text">hamburger</p>
+          </li>
+          <li class="fv__item">
+            <img src="./images/fried-poteto-img.jpg" alt="ケチャップとサワークリームとフライドポテト" class="fv__menu-img" loading="lazy">
+            <p class="fv__menu-text">fried potato</p>
+          </li>
+          <li class="fv__item">
+            <img src="./images/milkshake-img.jpg" alt="クッキーとクリームが載っているミルクシェイク" class="fv__menu-img" loading="lazy">
+            <p class="fv__menu-text">milkshake</p>
+          </li>
+        </ul>
+     </div>
+
+     <!-- Location -->
+    <section id = "location" class="location">
+      <div class="location__inner">
+        <h2 class="location__title title">Location</h2>
+        <div class="location__box">
+          <p class="location__text">
+            東北地方を中心に道の駅や色んなイベントに<br>
+            移動出店しています。<br>
+            場所とスケジュールはこちらから<br>
+            ご確認ください。<br>
+          </p>
+          <a href="#" class="location__button">詳しくはコチラ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+     <section id="about" class="about">
+      <div class="about__inner">
+        <div class="about__title title">About Me</div>
+        <div class="about__group">
+          <img src="./images/about-img.jpg" alt="ハンバーガーを笑顔で提供している女性店員" class="about__img" loading="lazy">
+          <div class="about__text-group">
+            <p class="about__sub-title">美味しいハンバーガーとシェイクで<br>
+            みんなを笑顔にしたい！</p>
+            <p class="about__text text">
+              ハンバーガーの本場、アメリカで3年修行。その後オーストラリアで出店。日本でも気軽に美味しいハンバーガーを味わってほしい！と思い2022年からフードトラックで東北各地を周ってます。<br>
+              こだわりの手作りバンス、ビーフ100％のジューシーなパティ、オリジナルのソース。<br>
+              大きな口でガブッとお召し上がりください！
+            </p>
+          </div>
+          <p class="about__comment">
+            日々心をこめたハンバーガー作りを行っていますが、それができるのは思いを形にする「食材」があるからです。食材はすべて、東北地方各地の酪農家さんや農家さんからの直送。旬のおいしさを楽しんでいただけるよう、食材を作る農家さんの思いも汲み取って心をこめてハンバーガーを作っています。ハンバーガーを通して地元の食材の素晴らしさをお伝えできるよう励んでいます。
+          </p>
+        </div>
+      </div>
+       
+     </section>
 
   </main>
 
